@@ -1,0 +1,135 @@
+# site_name: My Docs
+# site_url: https://maulanaaghni.id
+# theme:
+#   name: material
+
+
+# Project Information
+site_name: "MekProjects Wiki"
+site_url: https://maulanaaghnii.github.io/docs/
+site_author: TB Maulana Aghni
+site_description: >-
+  This personal wiki is my go-to resource for documenting key knowledge, 
+  project notes, and cheat sheets across various technologies.
+
+# Copyright
+copyright: Copyright &copy; 2024 TB. Maulana Aghni
+
+# Repository
+repo_name: maulanaaghnii/maulanaaghnii
+repo_url: https://github.com/maulanaaghnii
+
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+    logo: material/signal-variant
+  features:
+    - navigation.tabs
+    - content.code.copy
+    - content.tabs.link
+
+  palette:
+    # - media: "(prefers-color-scheme)"
+    #   toggle:
+    #     icon: material/link
+    #     name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: red
+      accent: red
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: orange
+      accent: orange
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
+  font:
+    text: Roboto
+    code: Roboto Mono
+  # logo: assets/images/67958.png
+  
+  favicon: assets/images/favicon.ico
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+docs_dir: docs
+site_dir: wiki
+plugins:
+  # - live-edit
+  - blog
+  - search:
+      lang:
+        - en
+        - id
+        
+nav:
+  - Home: 
+    - index.md
+    # - Blog: blog.md
+    - Content List: content-list.md
+    - About: about.md
+    - Version History: version.md
+    - .NET Basic: 
+      - .NET Basic : dotnet-basic-1.md
+      - .NET Cheatsheet: dotnet-cheatsheet.md
+      - .NET Class Objects: dotnet-class-objects.md
+      - .NET Clean Architecture: dotnet-clean-architecture.md
+      - .NET Logging Tutorial: dotnet-logging-tutorial.md
+      - .NET Microservices: dotnet-microservices.md
+      - .NET Nuget: dotnet-nuget.md
+    # - Get in touch: get-in-touch.md
+    - Python Basic:
+      - Python Basic: python-basic.md
+      - Python Cheatsheet: python-cheatsheet.md
+      - Python Class Objects: python-class-objects.md
+      - Python Clean Architecture: python-clean-architecture.md
+      - Python Logging Tutorial: python-logging-tutorial.md
+      - Python Microservices: python-microservices.md
+      - Python Nuget: python-nuget.md
+    - Underrated Tools: underrated-tools.md
+    - When You Bored: when-you-bored.md
+    - Cheat Sheets: cheat-sheets.md
+    - Category:
+      - Programming: category-programming.md
+      - DevOps: category-devops.md
+      - Linux: category-linux.md
+      - Containerization: category-containerization.md
+      - .NET: category-dotnet.md
+      - Backend: category-backend.md
+      - Cloud: category-cloud.md
+      - Operating System: category-operating-system.md
+      - Terminal: category-terminal.md
+
+
+    
+  - Content List: content-list.md
+  - Interesting Pages:
+    - When You Bored:  when-you-bored.md
+    - Underrated Tools: underrated-tools.md
+    - Cheat Sheets: cheat-sheets.md
+    - Tips and Tricks: tips-and-tricks.md
+  - Ongoing Projects:
+    - Machine Learning: dicoding-machine-learning.md
+    - Golang Microservices: golang-microservices.md
+    - .NET Microservices: dotnet-microservices.md
+  - www.maulanaaghni.id: https://maulanaaghni.id
+
+extra_css:
+  - stylesheets/extra.css
+    
+  # - About: about.md
+  # - Guide:
+  #     - Getting Started: guide/getting-started.md
+  #     - Advanced: guide/advanced.md
+  #
