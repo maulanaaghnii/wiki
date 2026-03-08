@@ -1,4 +1,9 @@
 collections_config:
+  docs:
+    name: Documentation
+    path: "docs"
+    output: true
+    url: "/[full_slug]/" # mkdocs' default url behavior for nested files
   pages:
     path: docs
     icon: wysiwyg
@@ -6,11 +11,7 @@ collections_config:
     path: docs/blog
     icon: event_available
     collections_config:
-  docs:
-    name: Documentation
-    path: "docs"
-    output: true
-    url: "/[full_slug]/" # mkdocs' default url behavior for nested files
+
 paths:
   static: 'docs'
   uploads: 'docs'
