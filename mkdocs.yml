@@ -6,7 +6,7 @@
 
 # Project Information
 site_name: "MekProjects Wiki"
-site_url: https://maulanaaghnii.github.io/docs/
+site_url: https://maulanaaghnii.github.io/wiki/
 site_author: TB Maulana Aghni
 site_description: >-
   This personal wiki is my go-to resource for documenting key knowledge, 
@@ -16,8 +16,8 @@ site_description: >-
 copyright: Copyright &copy; 2024 TB. Maulana Aghni
 
 # Repository
-repo_name: maulanaaghnii/maulanaaghnii
-repo_url: https://github.com/maulanaaghnii
+repo_name: maulanaaghnii/wiki
+repo_url: https://github.com/maulanaaghnii/wiki
 
 theme:
   name: material
