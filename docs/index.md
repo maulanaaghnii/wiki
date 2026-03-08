@@ -20,7 +20,7 @@ Go to see list of [Table of Content](content-list.md).
 <div class="grid cards" markdown>
 
 <div class="card" markdown>
-![Image title](https://github.com/maulanaaghnii/maulanaaghnii.github.io/blob/main/docs/assets/images/docker.jpg?raw=true){ .card-image }
+![Image title](https://raw.githubusercontent.com/maulanaaghnii/wiki/refs/heads/main/docs/assets/images/docker.jpg){ .card-image }
 
 <div class="card-labels">
 <a href="#"><span class="label label-devops">DevOps</span></a>
