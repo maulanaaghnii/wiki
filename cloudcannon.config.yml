@@ -1,0 +1,14 @@
+paths:
+  static: ''
+  uploads: uploads
+timezone: Asia/Jakarta
+markdown:
+  engine: commonmark
+  options: {}
+collections_config:
+  pages:
+    path: docs
+    icon: wysiwyg
+  blog:
+    path: docs/blog
+    icon: event_available
