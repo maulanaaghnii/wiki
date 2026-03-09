@@ -10,6 +10,8 @@ I like working close to the **core of applications** — authentication systems,
 
 - Backend development
 - API design
+- Implementing RabbitMQ (Message Broker) 
+- Microservices Orchestration
 - Authentication & authorization (JWT, OAuth, etc.)
 - System architecture and best practices
 - Background workers & asynchronous processing
