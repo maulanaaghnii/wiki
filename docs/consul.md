@@ -29,3 +29,5 @@ consul kv get my-key
 ## Architecture
 
 Consul usually runs in a cluster of **Servers** and **Agents**. Servers maintain the state, while Agents run on every node and handle health checks and service registration.
+
+<table><tbody><tr><td>Yes</td><td>No</td><td>Yes</td><td>No</td></tr><tr><td>1</td><td>0</td><td>1</td><td>0</td></tr></tbody></table>
