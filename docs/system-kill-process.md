@@ -10,9 +10,9 @@
 
 ``` 
 
-​​netstat -ano | findstr :&lt;PORT&gt;
+netstat -ano | findstr :<PORT>
 
-taskkill /PID &lt;PID_NUMBER&gt; /F
+taskkill /PID <PID_ID> /F
 
 ```
 
